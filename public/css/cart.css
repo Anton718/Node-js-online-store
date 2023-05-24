@@ -1,0 +1,20 @@
+
+.product {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1140px;
+    
+}
+.box {
+    text-align: center;
+   
+
+}
+.brand-bg {
+    background-color: #ffffff;
+}
+
+.quantity_input {
+    text-align: center;
+}
