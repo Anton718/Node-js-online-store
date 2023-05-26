@@ -63,7 +63,6 @@ app.get('/', function(req, res){
     });
         con.all('SELECT * FROM products', (err, result) => {
             if(err) throw err;
-            //success
             res.render('pages/index',{result: result});
             console.log('2. Selection executed.');
         });
